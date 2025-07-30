@@ -1,0 +1,30 @@
+body{
+    background:#799EFF;
+    margin: 20px;
+    padding: 10px;
+    border: 1px solid #eee;
+}
+.page-heading{
+    text-align: center;
+    margin-bottom: 2px;
+    color: #D92C54;
+    font-size: 36px;
+
+}
+
+.faculty-img{
+    height: 200px;
+    width: 200px;
+    object-fit: cover;
+    border-radius: 0 0 0 15px;
+}
+
+.faculty-card{
+    display: flex;
+    max-width: 900px;
+    background:#ffff;
+    border-radius: 15px;
+    box-shadow: 0 4px 20px rgb(0,0,0,0.1);
+    margin: auto;
+    overflow: hidden;
+}

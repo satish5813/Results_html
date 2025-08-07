@@ -3,18 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Result Project HTML</title>
+    <title>Result Analysis Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <center><h1>Result Anlysis Dashboard</h1></center>
-    <center>
-        <table border="1">
-        <tr>
-        <td><a href="Admin/admin_index.html"><img src="Public_Media/admin.jpeg" alt="Admin Image"></a></td>
-        <td><a href="Faculty/faculty_index.html"><img src="Public_Media/faculty.jpeg" alt="Admin Image"></a></td>
-        <td><a href="Student/student_index.html"><img src="Public_Media/student.png" alt="Admin Image"></a></td>
-        </tr>
-    </table>
-    </center>
+    <div class="dashboard-container">
+        <h1>Result Analysis Dashboard</h1>
+        <div class="card-grid">
+            <a href="Admin/admin_index.html" class="card">
+                <img src="Public_Media/admin.jpeg" alt="Admin">
+                <span>Admin</span>
+            </a>
+            <a href="Faculty/faculty_index.html" class="card">
+                <img src="Public_Media/faculty.jpeg" alt="Faculty">
+                <span>Faculty</span>
+            </a>
+            <a href="Student/student_index.html" class="card">
+                <img src="Public_Media/student.png" alt="Student">
+                <span>Student</span>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
